@@ -1,0 +1,52 @@
+temp1=500
+T0=40 + 5
+i=T0
+n=89
+x=90
+T1=40 + 5
+z=T1
+f=23.0
+x=0
+L0
+T2= x < 10
+T3= not T2
+if T3 goto L1
+goto L2
+L3:
+T4=x + 1
+x=T4
+goto L0
+L2:
+goto L3
+L1:
+i=0
+L3
+T5= i < n
+T6= not T5
+if T6 goto L4
+goto L5
+L6:
+T7=i + 1
+i=T7
+goto L3
+L5:
+goto L6
+L4:
+T8= n > 90
+T9= not T8
+if T9 goto L7
+T10=n - 9
+n=T10
+goto L8
+L7
+T11=n + 90
+n=T11
+L8
+L9
+T12= i < 90
+T13= not T12
+if T13 goto L10
+goto L9
+L10
+Input accepted.
+Parsing Complete

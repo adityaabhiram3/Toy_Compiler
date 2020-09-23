@@ -1,0 +1,39 @@
+temp1 = 500
+T0 = 45
+i = T0
+n = 89
+x = 90
+T1 = T0
+z = T1
+f = 23.0
+x = 0
+L0 :
+T2 =  x < 10
+ifnoT2 goto L1
+goto L2
+L1 :
+L2 :
+goto L3
+L3 :
+T5 =  i < n
+ifnoT5 goto L4
+goto L5
+L4 :
+T8 =  n > 90
+ifnoT8 goto L7
+T10 = n - 9
+n = T10
+goto L8
+L5 :
+goto L6
+L6 :
+L7 :
+T11 = n + 90
+n = T11
+L8 :
+L9 :
+T12 =  i < 90
+ifnoT12 goto L10
+goto L9
+L10 :
+SWI 0x11
